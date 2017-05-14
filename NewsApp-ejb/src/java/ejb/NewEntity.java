@@ -72,5 +72,15 @@ public class NewEntity implements Serializable {
     public String getBody() {
         return body;
     }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
+    
+    
     
 }
